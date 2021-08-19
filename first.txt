@@ -3,3 +3,4 @@ gitを開始
 ・git add
 ・git commit
 ・git remove
+・git status
