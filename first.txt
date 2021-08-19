@@ -2,3 +2,4 @@ gitを開始
 基本的なgitの変更
 ・git add
 ・git commit
+・git remove
