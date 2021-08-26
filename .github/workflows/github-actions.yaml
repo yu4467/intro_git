@@ -1,1 +1,14 @@
-
+name: GitHub Actions Demo
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+  workflow_dispatch:
+jobs:
+  helloworld:
+    runs-on: ubuntu-latest
+    steps:
+      - run: |
+          uname -a
+          echo Hello,World!!
